@@ -1,0 +1,58 @@
+class_name PlayerAir
+extends PlayerState
+
+func enter(_msg := {}) -> void:
+	state_name = "AIR"
+
+func physics_update(delta) -> void:
+	
+	# Add the gravity.
+	player.velocity.y += player.gravity * player.GRAVITY_SCALE * delta
+	
+	# Handle jumping
+	if Input.is_action_just_pressed("up"):
+		# Coyote Jump
+		if player.coyote_time.time_left > 0 and player.jumps > 0:
+			player.coyote_time.stop()
+			player.states.transition_to("Jump")
+		elif player.jumps > 0:
+			# Double Jump
+			player.states.transition_to("JumpDouble")
+		
+	
+	# Handle horizontal input
+	if player.input_direction != 0:
+		player.velocity.x = move_toward(player.velocity.x, player.MOVE_SPEED * player.input_direction, player.MOVE_ACCELERATION * delta)
+	else:
+		player.velocity.x = move_toward(player.velocity.x, 0, player.AIR_RESISTANCE * delta)
+	
+	#commit the movement
+	player.move_and_slide()
+	
+	#see if we have landed
+	if player.is_on_floor():
+		player.states.transition_to("Grounded")
+	
+	# see if we are "grabbing" a wall
+	var wall_normal = player.get_wall_normal()
+	if player.is_on_wall_only() and wall_normal.x > 0 and Input.is_action_pressed("left"):
+		# wall is to the left
+		player.velocity.y = 0
+		state_machine.transition_to("WallSlide")
+	
+	elif player.is_on_wall_only() and wall_normal.x < 0 and Input.is_action_pressed("right"):
+		# wall is to the right
+		player.velocity.y = 0
+		state_machine.transition_to("WallSlide")
+	
+	#update the animations
+	player_animation();
+
+
+func player_animation() -> void:
+	
+	# falling
+	if player.velocity.y <= 0:
+		player.animator.play("jump_up")
+	else:
+		player.animator.play("fall")

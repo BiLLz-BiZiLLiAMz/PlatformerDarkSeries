@@ -1,0 +1,255 @@
+[gd_scene load_steps=15 format=3 uid="uid://dvpkrlg362tld"]
+
+[ext_resource type="Script" path="res://Player/Player.cs" id="1_i1xmb"]
+[ext_resource type="Texture2D" uid="uid://dybxsc1d5ha3q" path="res://Player/Sprites/Basic Moves Spritesheet.png" id="2_8p2im"]
+
+[sub_resource type="Animation" id="Animation_22gg3"]
+resource_name = "Fall"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [37, 38]
+}
+
+[sub_resource type="Animation" id="Animation_h85hi"]
+resource_name = "Flip"
+length = 0.5
+step = 0.025
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [48, 49, 50, 51, 52]
+}
+
+[sub_resource type="Animation" id="Animation_61w77"]
+resource_name = "Idle"
+length = 1.6
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 5, 6, 7]
+}
+
+[sub_resource type="Animation" id="Animation_wb6vd"]
+resource_name = "JumpUp"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [36]
+}
+
+[sub_resource type="Animation" id="Animation_66mu1"]
+resource_name = "Land"
+length = 0.75
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [60, 61, 63, 65, 67]
+}
+
+[sub_resource type="Animation" id="Animation_xd0ja"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_cb50t"]
+resource_name = "Run"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [24, 25, 26, 27, 28, 29, 30, 31]
+}
+
+[sub_resource type="Animation" id="Animation_vn1dm"]
+resource_name = "SwordStab"
+length = 0.7
+step = 0.05
+
+[sub_resource type="Animation" id="Animation_fdm42"]
+resource_name = "WallLand"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [84, 85, 86, 87, 88, 89]
+}
+
+[sub_resource type="Animation" id="Animation_ugnpg"]
+resource_name = "WallSlide"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Spritesheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [96, 97, 98, 97]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_uk15c"]
+_data = {
+"Fall": SubResource("Animation_22gg3"),
+"Flip": SubResource("Animation_h85hi"),
+"Idle": SubResource("Animation_61w77"),
+"JumpUp": SubResource("Animation_wb6vd"),
+"Land": SubResource("Animation_66mu1"),
+"RESET": SubResource("Animation_xd0ja"),
+"Run": SubResource("Animation_cb50t"),
+"SwordStab": SubResource("Animation_vn1dm"),
+"WallLand": SubResource("Animation_fdm42"),
+"WallSlide": SubResource("Animation_ugnpg")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_orpd0"]
+size = Vector2(10, 24)
+
+[node name="Player" type="CharacterBody2D"]
+floor_constant_speed = true
+floor_snap_length = 3.4
+script = ExtResource("1_i1xmb")
+
+[node name="Spritesheet" type="Sprite2D" parent="."]
+texture = ExtResource("2_8p2im")
+hframes = 12
+vframes = 12
+metadata/_edit_lock_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_uk15c")
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_orpd0")
+metadata/_edit_lock_ = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_smoothed = true
+position_smoothing_speed = 10.0
+
+[node name="CoyoteTime" type="Timer" parent="."]
+
+[node name="DebugLabel" type="Label" parent="."]
+offset_left = -18.0
+offset_top = -45.0
+offset_right = 22.0
+offset_bottom = -22.0
+text = "TEST"
+
+[node name="RightTop" type="RayCast2D" parent="."]
+position = Vector2(5, -5)
+target_position = Vector2(5, 0)
+
+[node name="RightBottom" type="RayCast2D" parent="."]
+position = Vector2(5, 10)
+target_position = Vector2(5, 0)
+
+[node name="BottomLeft" type="RayCast2D" parent="."]
+position = Vector2(-3, 16)
+target_position = Vector2(0, 5)
+
+[node name="BottomRight" type="RayCast2D" parent="."]
+position = Vector2(3, 16)
+target_position = Vector2(0, 5)
+
+[node name="TopLeft" type="RayCast2D" parent="."]
+position = Vector2(-3, -8)
+target_position = Vector2(0, -5)
+
+[node name="TopRight" type="RayCast2D" parent="."]
+position = Vector2(3, -8)
+target_position = Vector2(0, -5)
+
+[node name="LeftTop" type="RayCast2D" parent="."]
+position = Vector2(-5, -5)
+target_position = Vector2(-5, 0)
+
+[node name="LeftBottom" type="RayCast2D" parent="."]
+position = Vector2(-5, 10)
+target_position = Vector2(-5, 0)
+
+[node name="Right" type="RayCast2D" parent="."]
+enabled = false
+target_position = Vector2(10, 0)
+
+[node name="Bottom" type="RayCast2D" parent="."]
+enabled = false
+target_position = Vector2(0, 21)
+
+[node name="Top" type="RayCast2D" parent="."]
+enabled = false
+target_position = Vector2(0, -13)
+
+[node name="Left" type="RayCast2D" parent="."]
+enabled = false
+target_position = Vector2(-10, 0)

@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            //"command": "C:/Users/billz/OneDrive/Desktop/Godot_v4.1.3-stable_mono_win64/Godot_v4.1.3-stable_mono_win64.exe", //PC
+            "command": "/Applications/Godot.app/Contents/MacOS/Godot", //MAC
+            "type": "process",
+            "args": [
+                "--build-solutions",
+                "--path",
+                "${workspaceRoot}",
+                "--no-window",
+                "-q"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
