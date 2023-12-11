@@ -1,0 +1,17 @@
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/bin/Debug/Platformer Tempalte.deps.json
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/bin/Debug/Platformer Tempalte.runtimeconfig.json
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/bin/Debug/Platformer Tempalte.dll
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/bin/Debug/Platformer Tempalte.pdb
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.csproj.AssemblyReference.cache
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.GeneratedMSBuildEditorConfig.editorconfig
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.AssemblyInfoInputs.cache
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.AssemblyInfo.cs
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.csproj.CoreCompileInputs.cache
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.csproj.CopyComplete
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.dll
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/refint/Platformer Tempalte.dll
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.pdb
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.genruntimeconfig.cache
+/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/ref/Platformer Tempalte.dll
