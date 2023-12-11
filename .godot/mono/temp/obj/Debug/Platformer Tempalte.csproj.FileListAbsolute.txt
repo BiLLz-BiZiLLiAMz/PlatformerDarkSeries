@@ -15,3 +15,21 @@
 /Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.pdb
 /Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/Platformer Tempalte.genruntimeconfig.cache
 /Users/willtenney/Documents/GitHub/PlatformerDarkSeries/.godot/mono/temp/obj/Debug/ref/Platformer Tempalte.dll
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\bin\Debug\Platformer Tempalte.deps.json
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\bin\Debug\Platformer Tempalte.runtimeconfig.json
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\bin\Debug\Platformer Tempalte.dll
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\bin\Debug\Platformer Tempalte.pdb
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.csproj.AssemblyReference.cache
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.AssemblyInfoInputs.cache
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.AssemblyInfo.cs
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.csproj.CoreCompileInputs.cache
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.sourcelink.json
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.csproj.CopyComplete
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.dll
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\refint\Platformer Tempalte.dll
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.pdb
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\Platformer Tempalte.genruntimeconfig.cache
+C:\Users\billz\OneDrive\Documents\GitHub\PlatformerDarkSeries\.godot\mono\temp\obj\Debug\ref\Platformer Tempalte.dll

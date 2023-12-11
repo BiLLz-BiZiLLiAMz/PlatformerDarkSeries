@@ -1,4 +1,4 @@
 res://World/Arena/Arena.tscn
+res://Player/Player.tscn
 res://Player/Player.cs
 res://World/Arena/Arena.cs
-res://Player/Player.tscn

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CrbnIPFlTkZ2ADdBIK4Q4RjkeKSZpfg4nqmDkf3ijTmClL7AyHkIAAxXZFVI4xrY3LW1lh+3LdEkYRn1eqj/Fw==",
+  "dgSpecHash": "DdbHNNbUT4QWmZrJbahRZdBxzqeP285+/6kCe7M7oZC0BPs8FGMInlOdkqWaP6mvfRK2V4Qa0oCdAqXOXkpJuA==",
   "success": true,
-  "projectFilePath": "/Users/willtenney/Documents/GitHub/PlatformerDarkSeries/Platformer Tempalte.csproj",
+  "projectFilePath": "C:\\Users\\billz\\OneDrive\\Documents\\GitHub\\PlatformerDarkSeries\\Platformer Tempalte.csproj",
   "expectedPackageFiles": [
-    "/Users/willtenney/.nuget/packages/godot.sourcegenerators/4.2.0/godot.sourcegenerators.4.2.0.nupkg.sha512",
-    "/Users/willtenney/.nuget/packages/godotsharp/4.2.0/godotsharp.4.2.0.nupkg.sha512",
-    "/Users/willtenney/.nuget/packages/godotsharpeditor/4.2.0/godotsharpeditor.4.2.0.nupkg.sha512"
+    "C:\\Users\\billz\\.nuget\\packages\\godot.sourcegenerators\\4.2.0\\godot.sourcegenerators.4.2.0.nupkg.sha512",
+    "C:\\Users\\billz\\.nuget\\packages\\godotsharp\\4.2.0\\godotsharp.4.2.0.nupkg.sha512",
+    "C:\\Users\\billz\\.nuget\\packages\\godotsharpeditor\\4.2.0\\godotsharpeditor.4.2.0.nupkg.sha512"
   ],
   "logs": []
 }
