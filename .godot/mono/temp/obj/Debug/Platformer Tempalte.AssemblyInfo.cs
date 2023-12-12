@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Platformer Tempalte")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1160b68658ace39e6a17300cf2be0f6b77a468e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d05ffeea5ad219b8cbf35ea67402f98b8a7adfc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Platformer Tempalte")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Platformer Tempalte")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

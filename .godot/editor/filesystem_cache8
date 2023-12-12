@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702307852
+::res://::1702336765
 icon.svg::CompressedTexture2D::6537303959322928929::1702307825::1702307853::1::::<><>::
 launch.txt::TextFile::-1::1702307825::0::1::::<><>::
 task.txt::TextFile::-1::1702307825::0::1::::<><>::
@@ -9,9 +9,9 @@ tempCode.txt::TextFile::-1::1702307825::0::1::::<><>::
 ::res://Managers/Camera/Sprites/::1702307825
 Camera Follow Zone.png::CompressedTexture2D::7828155537926840520::1702307825::1702307825::1::::<><>::
 Camera Lock Zone.png::CompressedTexture2D::1882907849647239877::1702307825::1702307825::1::::<><>::
-::res://Player/::1702307825
+::res://Player/::1702309599
 Player.cs::CSharpScript::-1::1702307825::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::8664831550553307661::1702307825::0::1::::<><>::res://Player/Player.cs<>uid://dgpsu4aa0g54y::::res://Player/Sprites/player.png
+Player.tscn::PackedScene::8664831550553307661::1702309599::0::1::::<><>::res://Player/Player.cs<>uid://dgpsu4aa0g54y::::res://Player/Sprites/player.png
 ::res://Player/Scripts/::1702307825
 ::res://Player/Sprites/::1702307825
 Basic Moves Spritesheet.png::CompressedTexture2D::8847287456658344512::1702307825::1702307825::1::::<><>::
@@ -20,8 +20,8 @@ player.png::CompressedTexture2D::7612490924177122474::1702307825::1702307825::1:
 SwordAttack1.png::CompressedTexture2D::7947505225101414283::1702307825::1702307825::1::::<><>::
 SwordStab.png::CompressedTexture2D::6953910484769763579::1702307825::1702307825::1::::<><>::
 ::res://World/::1702307825
-::res://World/Arena/::1702307825
+::res://World/Arena/::1702309599
 Arena.cs::CSharpScript::-1::1702307825::0::1::::<>Node2D<>::
-Arena.tscn::PackedScene::7842586090025372197::1702307825::0::1::::<><>::res://World/Arena/Arena.cs<>uid://b5f827due267a::::res://World/Arena/Sprites/sCollisionTilesTTT.png<>uid://dvpkrlg362tld::::res://Player/Player.tscn
+Arena.tscn::PackedScene::7842586090025372197::1702309599::0::1::::<><>::res://World/Arena/Arena.cs<>uid://b5f827due267a::::res://World/Arena/Sprites/sCollisionTilesTTT.png<>uid://dvpkrlg362tld::::res://Player/Player.tscn
 ::res://World/Arena/Sprites/::1702307825
 sCollisionTilesTTT.png::CompressedTexture2D::4504461445097866772::1702307825::1702307825::1::::<><>::

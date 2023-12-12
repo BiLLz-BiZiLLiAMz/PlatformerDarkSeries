@@ -1,6 +1,5 @@
-[gd_scene load_steps=6 format=3 uid="uid://dj0ainvqwf60p"]
+[gd_scene load_steps=5 format=3 uid="uid://dj0ainvqwf60p"]
 
-[ext_resource type="Script" path="res://World/Arena/Arena.cs" id="1_op28m"]
 [ext_resource type="Texture2D" uid="uid://b5f827due267a" path="res://World/Arena/Sprites/sCollisionTilesTTT.png" id="1_q0wqk"]
 [ext_resource type="PackedScene" uid="uid://dvpkrlg362tld" path="res://Player/Player.tscn" id="3_g05jk"]
 
@@ -61,7 +60,6 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_54hmx")
 
 [node name="Arena" type="Node2D"]
-script = ExtResource("1_op28m")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_rilan")
